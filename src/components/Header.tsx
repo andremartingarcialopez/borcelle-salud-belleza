@@ -1,4 +1,3 @@
-import Home from "../pages/home"
 import { optionsNavBar } from "../static/statics"
 import { Link, NavLink } from "react-router-dom"
 
