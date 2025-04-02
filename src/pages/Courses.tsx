@@ -2,6 +2,9 @@ import Header from "../components/Header";
 import { courses } from "../static/statics";
 
 export function Courses() {
+
+
+
     return (
         <>
             <Header></Header>
@@ -13,7 +16,7 @@ export function Courses() {
                     {courses.map(function (course) {
                         return (
                             <>
-                                <img className="w-full lg:w-120 lg:h-80" src={course.image} alt="" />
+                                <img key={course.id} className="w-full lg:w-120 lg:h-80" src={course.image} alt="Course_img" />
                                 <div className="text-center lg:text-start">
                                     <h3 className="text-4xl text-gray-600 font-semibold">{course.title}</h3>
                                     <p className="text-xl font-semibold">{course.duration}</p>

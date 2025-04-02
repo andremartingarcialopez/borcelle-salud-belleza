@@ -1,5 +1,6 @@
 import { products } from "../static/statics"
 import Header from "../components/Header"
+import { Link } from "react-router-dom"
 
 export default function HomePage() {
     return (
@@ -29,9 +30,9 @@ export default function HomePage() {
                             })}
 
                         </div>
-                        <a className="my-5 border border-gray-500 py-2 px-6 text-center text-xl hover:cursor-pointer hover:bg-gray-300 hover:text-gray-500 rounded-2xl bg-gray-400 text-white font-bold uppercase" href="#">
+                        <Link to={"/shop"} className="my-5 border border-gray-500 py-2 px-6 text-center text-xl hover:cursor-pointer hover:bg-gray-300 hover:text-gray-500 rounded-2xl bg-gray-400 text-white font-bold uppercase">
                             Shop Now
-                        </a>
+                        </Link>
                     </div>
 
 
