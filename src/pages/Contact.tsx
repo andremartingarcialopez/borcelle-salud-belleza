@@ -11,7 +11,7 @@ export default function Contact() {
           <div className="text-center lg:text-start">
             <h2 className="text-4xl font-bold text-[gray] my-3">Contact</h2>
             <h3 className="text-2xl font-semibold">Please fill out the form below to get in touch with us.</h3>
-            <p className="text-xl my-2">At Rocelle, we’re committed to providing you with the best skincare experience. Whether you have questions about our products, need personalized skincare advice, or want to share your feedback, we’d love to hear from you. Our team is here to assist you on your journey to healthier, glowing skin.</p>
+            <p className="text-xl my-2">At Borcelle, we’re committed to providing you with the best skincare experience. Whether you have questions about our products, need personalized skincare advice, or want to share your feedback, we’d love to hear from you. Our team is here to assist you on your journey to healthier, glowing skin.</p>
           </div>
 
           <div className="text-center lg:text-start my-5">
@@ -40,7 +40,7 @@ export default function Contact() {
               <textarea className=" border w-full h-[10rem] border-[gray] bg-slate-300 p-2 rounded-xl " placeholder="Message" name="" id=""></textarea>
             </div>
 
-            <input type="submit" value={"Send"} className="w-full lg:w-40 mt-2 mb-5 border border-gray-500 py-2 px-6 text-center text-xl hover:cursor-pointer hover:bg-gray-300 hover:text-gray-500 rounded-2xl bg-gray-400 text-white font-bold uppercase" />
+            <input type="submit"  value={"Send"} className="w-full lg:w-40 mt-2 mb-5 border border-gray-500 py-2 px-6 text-center text-xl hover:cursor-pointer hover:bg-gray-300 hover:text-gray-500 rounded-2xl bg-gray-400 text-white font-bold"  />
           </form>
         </div>
       </div>

@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+body {
+  font-family: 'Krub', sans-serif;
+}
+
 .gris {
   color: #757575;
 }
