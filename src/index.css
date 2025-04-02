@@ -11,3 +11,8 @@
   padding-top: 1rem;
   padding: 1rem;
 }
+
+.active{
+  color: #e7b110;
+  font-weight: bold;
+}

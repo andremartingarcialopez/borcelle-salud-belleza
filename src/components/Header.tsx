@@ -1,9 +1,10 @@
-import { optionsNavBar } from "../static/optionsNavBar"
+import { optionsNavBar } from "../static/statics"
+import { NavLink } from "react-router-dom"
 
 export default function Header() {
     return (
         <>
-            <header className="p-1 border-b border-b-[#757575] mx-auto max-w-400">
+            <header className="p-1 border-b mb-5 border-b-[#757575] mx-auto max-w-400">
                 <div className="lg:grid grid-cols-2 items-center mx-auto">
 
 
@@ -20,7 +21,8 @@ export default function Header() {
                     <div className="flex w-full justify-around text-xl">
                         {optionsNavBar.map(function (option) {
                             return (
-                                <a className="hover:text-[#ffc107]" href="#">{option.option}</a>
+                                
+                                <NavLink  key={option.id} className={"hover:text-[#ffc107]"} to={option.href}>{option.option}</NavLink>
                             )
                         })}
 
