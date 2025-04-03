@@ -23,7 +23,7 @@ export function Courses() {
                                     <p className="text-xl font-semibold">{course.duration}</p>
                                     <p className="my-3">{course.introduction}</p>
                                     <div className="my-5 inline-flex lg:block p-3 w-full">
-                                        <Link to={`/courseDetails/${course.id}`} className=" mt-5 border w-full border-gray-500 py-2 px-6 text-center text-xl hover:cursor-pointer hover:bg-gray-300 hover:text-gray-500 rounded-2xl bg-gray-400 text-white font-bold uppercase">Raed More</Link>
+                                        <Link to={`/courseDetails/${course.id}`} className=" mt-5 border w-full border-gray-500 py-2 px-6 text-center text-xl hover:cursor-pointer hover:bg-gray-300 hover:text-gray-500 rounded-2xl bg-gray-400 text-white font-bold">Read More</Link>
                                     </div>
                                 </div>
                             </>
