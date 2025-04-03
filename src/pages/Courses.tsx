@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import { courses } from "../static/statics";
+import { Footer } from "../components/Footer";
 
 export function Courses() {
 
@@ -32,6 +33,7 @@ export function Courses() {
 
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

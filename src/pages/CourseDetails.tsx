@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import { useParams } from "react-router-dom";
 import { courses } from "../static/statics";
+import { Footer } from "../components/Footer";
 
 export default function CourseDetails() {
 
@@ -23,7 +24,7 @@ export default function CourseDetails() {
                 </div>
             </div>
 
-
+            <Footer/>
         </>
     );
 }

@@ -1,6 +1,7 @@
 import { products } from "../static/statics"
 import Header from "../components/Header"
 import { Link } from "react-router-dom"
+import { Footer } from "../components/Footer"
 
 export default function HomePage() {
     return (
@@ -49,6 +50,8 @@ export default function HomePage() {
                     </div>
                 </div>
             </section>
+            
+            <Footer/>
         </>
     )
 }

@@ -1,3 +1,4 @@
+import { Footer } from "../components/Footer";
 import Header from "../components/Header"
 import { products } from "../static/statics"
 
@@ -36,6 +37,7 @@ export default function OnlineShop() {
         })}
 
       </div>
+      <Footer/>
     </>
   )
 }
