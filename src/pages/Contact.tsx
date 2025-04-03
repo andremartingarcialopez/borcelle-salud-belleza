@@ -1,6 +1,11 @@
 import Header from "../components/Header"
 
 export default function Contact() {
+
+  function sendForm() {
+    alert("Form out of service")
+  }
+
   return (
     <>
       <Header />
@@ -40,7 +45,7 @@ export default function Contact() {
               <textarea className=" border w-full h-[10rem] border-[gray] bg-slate-300 p-2 rounded-xl " placeholder="Message" name="" id=""></textarea>
             </div>
 
-            <input type="submit"  value={"Send"} className="w-full lg:w-40 mt-2 mb-5 border border-gray-500 py-2 px-6 text-center text-xl hover:cursor-pointer hover:bg-gray-300 hover:text-gray-500 rounded-2xl bg-gray-400 text-white font-bold"  />
+            <input type="submit" onClick={()=> sendForm()}  value={"Send"} className="w-full lg:w-40 mt-2 mb-5 border border-gray-500 py-2 px-6 text-center text-xl hover:cursor-pointer hover:bg-gray-300 hover:text-gray-500 rounded-2xl bg-gray-400 text-white font-bold"  />
           </form>
         </div>
       </div>

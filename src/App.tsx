@@ -4,6 +4,8 @@ import Home from "./pages/HomePage"
 import { Courses } from "./pages/Courses"
 import OnlineShop from "./pages/OnlineShop"
 import Contact from "./pages/Contact"
+import CourseDetails from "./pages/CourseDetails"
+import { AnaWilson } from "./pages/AnaWilson"
 
 function App() {
 
@@ -20,6 +22,8 @@ function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/shop" element={<OnlineShop/>} />
           <Route path="/contact" element={<Contact/>} />
+          <Route path="/courseDetails/:id" element={<CourseDetails/>} />
+          <Route path="//anaWilson" element={<AnaWilson/>} />
         </Routes>
       </BrowserRouter>
 

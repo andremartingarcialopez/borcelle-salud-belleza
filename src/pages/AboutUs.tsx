@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Header from "../components/Header";
 
 
@@ -18,9 +19,9 @@ export default function AboutUs() {
           <p>Known for her radiant beauty and unmistakable style, Ana Wilson has become an icon of elegance and self-care. Her secret to flawless skin lies in a skincare routine that blends natural ingredients with advanced technology.</p> <br />
           <p>Through her exclusive product line, Ana shares her most treasured secrets to maintaining fresh, hydrated, and glowing skin. Each formula is carefully crafted to deliver visible results and transform the daily skincare experience, just as Ana does with every project she takes on.</p>
 
-          <a href="#" className=" my-5 border border-gray-500 py-2 px-6 text-center text-xl hover:cursor-pointer hover:bg-gray-300 hover:text-gray-500 rounded-2xl bg-gray-400 text-white font-bold uppercase">
+          <Link to={"/anaWilson"} className=" my-5 border border-gray-500 py-2 px-6 text-center text-xl hover:cursor-pointer hover:bg-gray-300 hover:text-gray-500 rounded-2xl bg-gray-400 text-white font-bold uppercase">
             Read More
-          </a>
+          </Link>
         </div>
 
       </div>
