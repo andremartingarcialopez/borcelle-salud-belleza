@@ -18,7 +18,7 @@ export default function HomePage() {
                 <div className="lg:grid lg:grid-cols-[1fr_2fr]">
 
                     <div className="flex flex-col px-2">
-                        <h3 className="text-3xl text-gray-600 font-semibold">Our Products</h3>
+                        <h3 className="text-2xl md:text-4xl text-gray-600 font-semibold">Our Products</h3>
                         <p>Discover the best version of your skin with our curated selection of skincare products. Designed to cleanse, hydrate, and revitalize, our products combine high-quality ingredients that suit all skin types</p>
 
                         <div className="md:hidden mt-5 md:mt-0 justify-around ">
@@ -31,7 +31,7 @@ export default function HomePage() {
                             })}
 
                         </div>
-                        <Link to={"/shop"} className="my-5 border border-gray-500 py-2 px-6 text-center text-xl hover:cursor-pointer hover:bg-gray-300 hover:text-gray-500 rounded-2xl bg-gray-400 text-white font-bold uppercase">
+                        <Link to={"/shop"} className="my-5 border border-gray-500 py-2 px-6 text-center  hover:cursor-pointer hover:bg-gray-300 hover:text-gray-500 rounded-2xl bg-gray-400 text-white font-bold uppercase">
                             Shop Now
                         </Link>
                     </div>

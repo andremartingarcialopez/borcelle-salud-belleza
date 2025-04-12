@@ -18,7 +18,7 @@ export default function CourseDetails() {
                     <img src={courseParams?.image} alt="course_img" />
                 </div>
                 <div>
-                    <h2 className="text-4xl text-gray-600 font-semibold">{courseParams?.title}</h2>
+                    <h2 className="text-2xl text-gray-600 font-semibold">{courseParams?.title}</h2>
                     <h3 className="text-xl font-semibold">{courseParams?.duration}</h3>
                     <p className="my-3 px-2">{courseParams?.details}</p>
                 </div>
